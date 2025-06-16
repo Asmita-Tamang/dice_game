@@ -131,7 +131,7 @@ p{
     background-color: ${c=>c.isSelected?"black":"white"};
     color: ${c=>c.isSelected?"white":"black"};
 
-`,Vv=({currentDice:c,roleDice:s})=>tt.jsxs(Lv,{children:[tt.jsx("div",{className:"dice",onClick:s,children:tt.jsx("img",{src:"./images/dice_${currentDice}.png",alt:"dice ${currentDice}"})}),tt.jsx("p",{children:"Click on Dice to roll"})]}),Lv=Nl.div`
+`,Vv=({currentDice:c,roleDice:s})=>tt.jsxs(Lv,{children:[tt.jsx("div",{className:"dice",onClick:s,children:tt.jsx("img",{src:"/images/dice_${currentDice}.png",alt:"dice ${currentDice}"})}),tt.jsx("p",{children:"Click on Dice to roll"})]}),Lv=Nl.div`
   display: flex;
   flex-direction: column;
   margin-top: 48px;
