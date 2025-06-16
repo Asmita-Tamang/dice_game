@@ -4,11 +4,12 @@
   "homepage": "https://Asmita-Tamang.github.io/dice_game",
   "private": true,
   "scripts": {
-  "start": "react-scripts start",
-  "build": "react-scripts build",
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
   "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-},
+  "deploy": "gh-pages -d dist"
+}
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
