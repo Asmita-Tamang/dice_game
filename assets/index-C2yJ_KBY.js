@@ -80,7 +80,7 @@ color: black;
       border: solid 1px transparent;
     }
 
-`,Bv=({toggle:c})=>tt.jsxs(Cv,{children:[tt.jsx("img",{src:"/images/dices.png",alt:""}),tt.jsxs("div",{children:[tt.jsx("h1",{className:"content",children:"Dice Game"}),tt.jsx(or,{onClick:c,children:"Play Now"})]})]}),Cv=Nl.div`
+`,Bv=({toggle:c})=>tt.jsxs(Cv,{children:[tt.jsx("img",{src:"images/dices.png",alt:""}),tt.jsxs("div",{children:[tt.jsx("h1",{className:"content",children:"Dice Game"}),tt.jsx(or,{onClick:c,children:"Play Now"})]})]}),Cv=Nl.div`
     max-width: 1180px;
     height: 100vh;
     display: flex;
@@ -131,7 +131,7 @@ p{
     background-color: ${c=>c.isSelected?"black":"white"};
     color: ${c=>c.isSelected?"white":"black"};
 
-`,Vv=({currentDice:c,roleDice:s})=>tt.jsxs(Lv,{children:[tt.jsx("div",{className:"dice",onClick:s,children:tt.jsx("img",{src:`/images/dice/dice_${c}.png`,alt:`dice ${c}`})}),tt.jsx("p",{children:"Click on Dice to roll"})]}),Lv=Nl.div`
+`,Vv=({currentDice:c,roleDice:s})=>tt.jsxs(Lv,{children:[tt.jsx("div",{className:"dice",onClick:s,children:tt.jsx("img",{src:"images/dice/dice_${currentDice}.png",alt:"dice ${currentDice}"})}),tt.jsx("p",{children:"Click on Dice to roll"})]}),Lv=Nl.div`
   display: flex;
   flex-direction: column;
   margin-top: 48px;
